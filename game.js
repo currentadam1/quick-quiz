@@ -1,6 +1,6 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-// const endButton = document.getElementById("endButton");
+const endButton = document.getElementById("endButton");
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
